@@ -1,7 +1,7 @@
 name: docc
 on:
   push:
-    branches: ["**"]
+    branches: ["main"]
 permissions:
   contents: read
   pages: write
