@@ -23,9 +23,7 @@ let package = Package(
     targets: [
         .target(
             name: "FeedbackKit",
-            dependencies: [
-                "AppState"
-            ]
+            dependencies: ["AppState"]
         ),
         .testTarget(
             name: "FeedbackKitTests",
