@@ -3,10 +3,8 @@ import XCTest
 
 final class FeedbackKitTests: XCTestCase {
     func testExample() throws {
-        // XCTest Documentation
-        // https://developer.apple.com/documentation/xctest
+        let store = FeedbackStore()
 
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+        
     }
 }
