@@ -1,6 +1,5 @@
 struct Feedback: Identifiable, Hashable {
     var id: String { title }
-
     let type: FeedbackType
     let title: String
     let description: String
