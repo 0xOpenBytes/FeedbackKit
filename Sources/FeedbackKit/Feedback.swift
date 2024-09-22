@@ -1,5 +1,7 @@
-struct Feedback: Identifiable, Hashable {
-    var id: String { title }
+import Foundation
+
+struct Feedback: Identifiable, Hashable, Codable {
+    var id: UUID = .init()
     let type: FeedbackType
     let title: String
     let description: String
@@ -37,7 +39,7 @@ extension Feedback {
     }
 }
 
-enum FeedbackState {
+enum FeedbackState: Codable {
     case open
     case closed
 }
