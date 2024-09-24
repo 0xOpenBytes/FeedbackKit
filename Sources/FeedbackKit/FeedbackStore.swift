@@ -3,6 +3,7 @@ import Cache
 import Foundation
 
 extension Application {
+    @MainActor
     fileprivate var storedFeedback: FileState<[UUID: Feedback]> {
         fileState(initial: [:], filename: "storedFeedback")
     }
