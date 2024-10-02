@@ -1,6 +1,7 @@
 import Combine
 import SwiftUI
 
+@MainActor
 class FeedbackViewModel: ObservableObject {
     private var bag: Set<AnyCancellable>
 
